@@ -10,17 +10,16 @@ public class Test{
 		}
 		int [] numbers = {10, 20, 30, 40, 50};
 
-      for(int i=0;i<5;i++ ) {
-         System.out.print( numbers[i] );
-         System.out.print(",");
-      }
-      System.out.print("\n");
-      String [] names = {"James", "Larry", "Tom", "Lacy"};
+	        for(int i=0;i<5;i++ ) {
+		  System.out.print( numbers[i] );
+		  System.out.print(",");
+	        }
+	        System.out.print("\n");
+	        String [] names = {"James", "Larry", "Tom", "Lacy"};
 
-      for( String nam : names ) {
-         System.out.print( nam );
-         System.out.print(",");
-      }
-
+	        for( String nam : names ) {
+		  System.out.print( nam );
+		  System.out.print(",");
+	        }
 	}
 }
