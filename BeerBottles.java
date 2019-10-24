@@ -3,7 +3,7 @@ public class BeerBottles{
 		int n=99;
 		String word="bottles";
 
-		while(n>1){
+		while(n>=2){
 			System.out.println(n+" "+word+" of beer on the wall, "+n+" "+word+" of beer. ");
 			n--;
 			if(n==1)
